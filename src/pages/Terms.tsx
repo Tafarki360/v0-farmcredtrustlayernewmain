@@ -1,8 +1,8 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { FarmCredLogo } from "@/components/FarmCredLogo";
-import { Link } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
+import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { FarmCredLogo } from "@/components/FarmCredLogo"
+import { Link } from "react-router-dom"
+import { ArrowLeft } from "lucide-react"
 
 const Terms = () => {
   return (
@@ -28,12 +28,10 @@ const Terms = () => {
         {/* Header */}
         <div className="text-center space-y-4">
           <h1 className="text-4xl font-bold">Terms of Service</h1>
-          <p className="text-lg text-muted-foreground">
-            Last updated: December 2024
-          </p>
+          <p className="text-lg text-muted-foreground">Last updated: December 2024</p>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            These terms govern your use of FarmCred's platform and services. 
-            Please read them carefully before using our services.
+            These terms govern your use of FarmCred's platform and services. Please read them carefully before using our
+            services.
           </p>
         </div>
 
@@ -45,13 +43,12 @@ const Terms = () => {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-muted-foreground">
-                By accessing and using the FarmCred platform, you accept and agree to be bound by the terms 
-                and provision of this agreement. If you do not agree to abide by the above, please do not 
-                use this service.
+                By accessing and using the FarmCred platform, you accept and agree to be bound by the terms and
+                provision of this agreement. If you do not agree to abide by the above, please do not use this service.
               </p>
               <p className="text-muted-foreground">
-                These terms apply to all users of the platform, including farmers, cooperatives, and 
-                financial institutions.
+                These terms apply to all users of the platform, including farmers, cooperatives, and financial
+                institutions.
               </p>
             </CardContent>
           </Card>
@@ -61,9 +58,7 @@ const Terms = () => {
               <CardTitle>2. Platform Services</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
-              <p className="text-muted-foreground">
-                FarmCred provides a technology platform that:
-              </p>
+              <p className="text-muted-foreground">FarmCred provides a technology platform that:</p>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
                 <li>Facilitates credit assessment for agricultural purposes</li>
                 <li>Connects farmers with financial institutions and cooperatives</li>
@@ -85,7 +80,7 @@ const Terms = () => {
                 <li>Notify us immediately of any unauthorized access</li>
                 <li>Use strong passwords and enable two-factor authentication</li>
               </ul>
-              
+
               <h4 className="font-semibold">Information Accuracy</h4>
               <ul className="list-disc list-inside text-muted-foreground space-y-1 mb-4">
                 <li>Provide accurate and complete information</li>
@@ -108,9 +103,7 @@ const Terms = () => {
               <CardTitle>4. Credit Assessment and Scoring</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
-              <p className="text-muted-foreground">
-                Our credit scoring system uses various factors including:
-              </p>
+              <p className="text-muted-foreground">Our credit scoring system uses various factors including:</p>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
                 <li>Agricultural history and farming practices</li>
                 <li>Community verification and recommendations</li>
@@ -118,8 +111,8 @@ const Terms = () => {
                 <li>Educational and training participation</li>
               </ul>
               <p className="text-muted-foreground">
-                Credit scores are indicative and do not guarantee loan approval. Final lending decisions 
-                rest with individual financial institutions.
+                Credit scores are indicative and do not guarantee loan approval. Final lending decisions rest with
+                individual financial institutions.
               </p>
             </CardContent>
           </Card>
@@ -130,8 +123,8 @@ const Terms = () => {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-muted-foreground">
-                Your privacy is important to us. Our data practices are governed by our Privacy Policy, 
-                which forms part of these terms. Key points include:
+                Your privacy is important to us. Our data practices are governed by our Privacy Policy, which forms part
+                of these terms. Key points include:
               </p>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
                 <li>We collect only necessary information for our services</li>
@@ -156,9 +149,7 @@ const Terms = () => {
                 <li>Act as a financial institution or bank</li>
                 <li>Take responsibility for lending decisions</li>
               </ul>
-              <p className="text-muted-foreground">
-                All loan agreements are between you and the lending institution.
-              </p>
+              <p className="text-muted-foreground">All loan agreements are between you and the lending institution.</p>
             </CardContent>
           </Card>
 
@@ -167,9 +158,7 @@ const Terms = () => {
               <CardTitle>7. Platform Availability</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
-              <p className="text-muted-foreground">
-                We strive to maintain platform availability but cannot guarantee:
-              </p>
+              <p className="text-muted-foreground">We strive to maintain platform availability but cannot guarantee:</p>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
                 <li>Uninterrupted access to the platform</li>
                 <li>Error-free operation at all times</li>
@@ -201,17 +190,15 @@ const Terms = () => {
               <CardTitle>9. Termination</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
-              <p className="text-muted-foreground">
-                Either party may terminate this agreement:
-              </p>
+              <p className="text-muted-foreground">Either party may terminate this agreement:</p>
               <ul className="list-disc list-inside text-muted-foreground space-y-2">
                 <li>At any time with reasonable notice</li>
                 <li>Immediately for breach of terms</li>
                 <li>For fraudulent or illegal activities</li>
               </ul>
               <p className="text-muted-foreground">
-                Upon termination, certain provisions will survive, including data retention, 
-                liability limitations, and dispute resolution.
+                Upon termination, certain provisions will survive, including data retention, liability limitations, and
+                dispute resolution.
               </p>
             </CardContent>
           </Card>
@@ -221,13 +208,11 @@ const Terms = () => {
               <CardTitle>10. Contact Information</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground mb-4">
-                For questions about these terms, contact us:
-              </p>
+              <p className="text-muted-foreground mb-4">For questions about these terms, contact us:</p>
               <div className="space-y-2 text-muted-foreground">
-                <p>Email: legal@farmcred.ng</p>
-                <p>Phone: +234 803 123 4567</p>
-                <p>Address: Victoria Island, Lagos, Nigeria</p>
+                <p>Email: support@farmcred.com.ng</p>
+                <p>Phone: +2347069301804</p>
+                <p>Address: Funtua, Nigeria 830101</p>
               </div>
             </CardContent>
           </Card>
@@ -236,16 +221,14 @@ const Terms = () => {
         {/* CTA */}
         <div className="text-center space-y-4 py-8">
           <h2 className="text-2xl font-bold">Questions About Our Terms?</h2>
-          <p className="text-muted-foreground">
-            Our legal team is available to help clarify any terms or conditions.
-          </p>
+          <p className="text-muted-foreground">Our legal team is available to help clarify any terms or conditions.</p>
           <Link to="/contact">
-            <Button>Contact Legal Team</Button>
+            <Button>Contact Support Team</Button>
           </Link>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Terms;
+export default Terms

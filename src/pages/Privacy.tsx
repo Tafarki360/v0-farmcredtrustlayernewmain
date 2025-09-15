@@ -1,32 +1,32 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { FarmCredLogo } from "@/components/FarmCredLogo";
-import { Link } from "react-router-dom";
-import { ArrowLeft, Shield, Eye, Lock, Users } from "lucide-react";
+import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { FarmCredLogo } from "@/components/FarmCredLogo"
+import { Link } from "react-router-dom"
+import { ArrowLeft, Shield, Eye, Lock, Users } from "lucide-react"
 
 const Privacy = () => {
   const privacyPrinciples = [
     {
       icon: Shield,
       title: "Data Protection",
-      description: "We use industry-standard encryption and security measures to protect your personal information."
+      description: "We use industry-standard encryption and security measures to protect your personal information.",
     },
     {
       icon: Eye,
       title: "Transparency",
-      description: "We clearly explain what data we collect, how we use it, and who we share it with."
+      description: "We clearly explain what data we collect, how we use it, and who we share it with.",
     },
     {
       icon: Lock,
       title: "Data Minimization",
-      description: "We only collect the minimum data necessary to provide our services effectively."
+      description: "We only collect the minimum data necessary to provide our services effectively.",
     },
     {
       icon: Users,
       title: "User Control",
-      description: "You have control over your data and can request access, correction, or deletion at any time."
-    }
-  ];
+      description: "You have control over your data and can request access, correction, or deletion at any time.",
+    },
+  ]
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-secondary/20 to-primary/5">
@@ -51,12 +51,10 @@ const Privacy = () => {
         {/* Header */}
         <div className="text-center space-y-4">
           <h1 className="text-4xl font-bold">Privacy Policy</h1>
-          <p className="text-lg text-muted-foreground">
-            Last updated: December 2024
-          </p>
+          <p className="text-lg text-muted-foreground">Last updated: December 2024</p>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            At FarmCred, we take your privacy seriously. This policy explains how we collect, 
-            use, and protect your personal information.
+            At FarmCred, we take your privacy seriously. This policy explains how we collect, use, and protect your
+            personal information.
           </p>
         </div>
 
@@ -173,9 +171,9 @@ const Privacy = () => {
                 If you have questions about this privacy policy or want to exercise your rights, contact us:
               </p>
               <div className="space-y-2 text-muted-foreground">
-                <p>Email: privacy@farmcred.ng</p>
-                <p>Phone: +234 803 123 4567</p>
-                <p>Address: Victoria Island, Lagos, Nigeria</p>
+                <p>Email: support@farmcred.com.ng</p>
+                <p>Phone: +2347069301804</p>
+                <p>Address: Funtua, Nigeria 830101</p>
               </div>
             </CardContent>
           </Card>
@@ -184,16 +182,14 @@ const Privacy = () => {
         {/* CTA */}
         <div className="text-center space-y-4 py-8">
           <h2 className="text-2xl font-bold">Questions About Privacy?</h2>
-          <p className="text-muted-foreground">
-            We're here to help you understand how we protect your data.
-          </p>
+          <p className="text-muted-foreground">We're here to help you understand how we protect your data.</p>
           <Link to="/contact">
-            <Button>Contact Privacy Team</Button>
+            <Button>Contact Support Team</Button>
           </Link>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Privacy;
+export default Privacy
